@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Eczar:wght@500&family=Playfair+Display&display=swap');
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html::-webkit-scrollbar {
+    width: 0 !important
+}
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+#content {
+    flex: 1 0 auto;
+}
+.footer {
+    flex-shrink: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#github {
+    width: 60px;
+    height: 60px;
+}
+#github:hover {
+    opacity: 0.65;
+}
+header {
+    padding: 20px;
+    font-size: 60px;
+    height: 15vh;
+    font-family: 'Eczar', serif;
+    background-color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(168, 164, 164);
+}
+#inbox {
+    display: flex;
+    padding: 10px;
+    margin: 2.5px;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+#inbox:hover {
+    opacity: 0.75;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#inbox-img {
+    width: 25px;
+    height: 25px;
+}
+#today {
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 2.5px;
+}
+#today:hover {
+    opacity: 0.75;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#today-img {
+    width: 25px;
+    height: 25px;
+}
+#projects {
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 2.5px;
+}
+#projects:hover {
+    opacity: 0.75;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#projects-img {
+    width: 25px;
+    height: 25px;
+}
+#title {
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+}
+#addTask {
+    cursor: pointer;
+    padding: 10px;
+}
+#addProject {
+    cursor: pointer;
+    padding: 10px;
+}
+.button-clicked {
+    opacity: 0.75;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#addTaskBtn {
+    margin-left: 5px;
+}
+#cancelTaskBtn {
+    margin-left: 5px;
+}
+#dismissMessage {
+    height: 35px;
+}
+#tableHead {
+    margin-top: 20px;
+}
+.viewTaskDetails {
+    vertical-align: middle;
+}
+.strikeDone {
+    text-decoration: line-through;
+}
+.buttonAlign {
+    display: flex;
+    align-items: flex-end;
+}
+#addProjectBtn {
+    margin-left: 5px;
+}
+#cancelProjectBtn {
+    margin-left: 5px;
+}
+.delete-project {
+    margin-top: 12px;
+    margin-left: 21px;
+    margin-bottom: 10px;
+}
+.done-project {
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.project-task-body {
+    margin-top: -10px;
+}
+#collapseProjectHeader {
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+.project-table {
+    margin-top: 5px;
+}
+.addProjectTaskBtn {
+    margin-left: 5px;
+}
+.cancelProjectTaskBtn {
+    margin-left: 5px;
+}
